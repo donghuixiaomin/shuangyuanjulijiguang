@@ -1,0 +1,27 @@
+{
+    "name": "图书馆人流检测",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        " extension0304": "pkg: extension0304.json"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        " extension0304.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.25",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
